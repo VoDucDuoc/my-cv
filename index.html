@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css" />
+  <link rel="stylesheet" href="stylesheets/libs/fontawesome/css/all.css" />
+
+  <link rel="stylesheet" href="stylesheets/main.css" />
+  <title>CV - Võ Đức Được</title>
+
+  <script src="scripts/themeChoose.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link js-anchorScroll">
+          <span class="link-text logo-text">DUOC's CV</span>
+          <svg role="img" focusable="false" data-prefix="fas" aria-hidden="true" viewBox="0 0 448 512"
+            data-icon="angle-double-right" xmlns="http://www.w3.org/2000/svg"
+            class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+            <g class="fa-group">
+              <path fill="currentColor"
+                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                class="fa-secondary"></path>
+              <path fill="currentColor"
+                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                class="fa-primary"></path>
+            </g>
+          </svg>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#about" class="nav-link js-anchorScroll">
+          <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="info-circle"
+            class="svg-inline--fa fa-info-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512">
+            <path class="fa-primary" fill="currentColor"
+              d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+            </path>
+          </svg>
+          <span class="link-text">About</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#education" class="nav-link js-anchorScroll">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-graduate"
+            class="svg-inline--fa fa-user-graduate fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path class="fa-primary" fill="currentColor"
+              d="M319.4 320.6L224 416l-95.4-95.4C57.1 323.7 0 382.2 0 454.4v9.6c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-9.6c0-72.2-57.1-130.7-128.6-133.8zM13.6 79.8l6.4 1.5v58.4c-7 4.2-12 11.5-12 20.3 0 8.4 4.6 15.4 11.1 19.7L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.3C51.4 175.4 56 168.4 56 160c0-8.8-5-16.1-12-20.3V87.1l66 15.9c-8.6 17.2-14 36.4-14 57 0 70.7 57.3 128 128 128s128-57.3 128-128c0-20.6-5.3-39.8-14-57l96.3-23.2c18.2-4.4 18.2-27.1 0-31.5l-190.4-46c-13-3.1-26.7-3.1-39.7 0L13.6 48.2c-18.1 4.4-18.1 27.2 0 31.6z">
+            </path>
+          </svg>
+          <span class="link-text">Education</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#skills" class="nav-link js-anchorScroll">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="keyboard"
+            class="svg-inline--fa fa-keyboard fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512">
+            <path fill="currentColor" class="fa-primary"
+              d="M528 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h480c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM128 180v-40c0-6.627-5.373-12-12-12H76c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm-336 96v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm-336 96v-40c0-6.627-5.373-12-12-12H76c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12zm288 0v-40c0-6.627-5.373-12-12-12H172c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h232c6.627 0 12-5.373 12-12zm96 0v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12z">
+            </path>
+          </svg><span class="link-text">Skills</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#projects" class="nav-link js-anchorScroll">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram"
+            class="svg-inline--fa fa-project-diagram fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 640 512">
+            <path class="fa-primary" fill="currentColor"
+              d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z">
+            </path>
+          </svg><span class="link-text">Projects</span>
+        </a>
+      </li>
+
+      <li class="nav-item" id="themeButton">
+        <a href="#" class="nav-link">
+          <svg id="lightIcon" aria-hidden="true" focusable="false" data-prefix="fad" data-icon="moon-stars" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+            class="theme-icon svg-inline--fa fa-moon-stars fa-w-16 fa-7x">
+            <g class="fa-group">
+              <path fill="currentColor"
+                d="M320 32L304 0l-16 32-32 16 32 16 16 32 16-32 32-16zm138.7 149.3L432 128l-26.7 53.3L352 208l53.3 26.7L432 288l26.7-53.3L512 208z"
+                class="fa-secondary"></path>
+              <path fill="currentColor"
+                d="M332.2 426.4c8.1-1.6 13.9 8 8.6 14.5a191.18 191.18 0 0 1-149 71.1C85.8 512 0 426 0 320c0-120 108.7-210.6 227-188.8 8.2 1.6 10.1 12.6 2.8 16.7a150.3 150.3 0 0 0-76.1 130.8c0 94 85.4 165.4 178.5 147.7z"
+                class="fa-primary"></path>
+            </g>
+          </svg>
+
+          <svg id="darkIcon" data-icon="sun" aria-hidden="true" focusable="false" data-prefix="fas"
+            class="theme-icon svg-inline--fa fa-sun fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512">
+            <path class="fa-primary" fill="currentColor"
+              d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z">
+            </path>
+          </svg>
+
+          <span class="link-text">Switch Theme</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section class="resume-section slide-up js-slideUp" id="about">
+      <h1 class="heading heading--big" id="fullname">
+        Võ Đức <span>Được</span>
+      </h1>
+
+      <h3 class="subheading subheading--small">
+        <i class="fas fa-id-card"></i>
+        · Front-end Developer
+      </h3>
+
+      <p class="text text--lead" id="greeting">
+        Good <span></span>! How are you doing?
+      </p>
+
+      <span class="text text--group">
+        <p class="text text--icon-inside">
+          I'm Vo Duc Duoc, a front-end developer with 1 year of experience in implementing
+          <strong class="fa-primary">
+            web and mobile applications
+          </strong>
+        </p>
+      </span>
+      <span class="text text--group">
+        <p class="text text--icon-inside">
+          I am always willing to learn new technologies
+        </p>
+        <p class="text text--icon-inside">
+          I'll try my best to do my job and dedicate your company
+        </p>
+        <p class="text text--icon-inside">
+          Learn more and more to be a professional Front-end developer.
+        </p>
+      </span>
+
+      <p class="text text--lead fa-primary">Thanks and enjoy my CV!</p>
+
+      <ul class="icon icon__container icon__container--h icon--dynamic-color">
+
+        <li class="icon icon__item">
+          <a class="link link--navicon link--text" href="https://github.com/VoDucDuoc">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="icon icon__item">
+          <a class="link link--navicon link--text" href="https://www.linkedin.com/in/duocvo2501/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="icon icon__item">
+          <a class="link link--navicon link--text openPopupInfo" target="basicInfo" style="cursor: pointer;">
+            <i class="fa fa-mobile-alt"></i>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="resume-section slide-up js-slideUp" id="education">
+      <h1 class="heading heading--no-sub">Education</h1>
+
+      <div class="resume-item" style="margin-bottom: 1.5rem">
+        <div class="resume-content">
+          <h3 class="heading heading--link-inside heading--small">
+            <a target="_blank">CyberSoft Academy</a>
+          </h3>
+          <h3 class="subheading subheading--small" style="margin-bottom: 0px">
+            I've been learn Front-end course (Html, Css, JavaScript, ReactJS,...)
+          </h3>
+        </div>
+
+        <div class="resume-date">
+          <span> 2020 </span>
+        </div>
+      </div>
+
+      <div class="resume-item" style="margin-bottom: 1.5rem">
+        <div class="resume-content">
+          <h3 class="heading heading--link-inside heading--small">
+            <a target="_blank">University of information technology</a>
+          </h3>
+
+          <h3 class="subheading subheading--small" style="margin-bottom:0px">
+            I've been learn the basic programming, data structure & algorithm, OOP,...
+          </h3>
+        </div>
+
+        <div class="resume-date">
+          <span> 2018 </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume-section slide-up js-slideUp" id="skills">
+      <h1 class="heading heading--no-sub">Skills</h1>
+
+      <h3 class="subheading subheading--small">
+        Programming languages, tools & Technology
+      </h3>
+
+      <!-- <ul class="icon icon__container">
+        <li class="icon icon__item icon__item--inline">
+          <i class="devicon-react-original colored" title="ReactJS"></i>
+        </li>
+
+        <li class="icon icon__item icon__item--inline">
+          <i class="fab fa-js"></i>
+        </li>
+
+        <li class="icon icon__item icon__item--inline">
+          <img src="images/socket.png" />
+        </li> -->
+
+      <!-- <li class="icon icon__item icon__item--inline">
+          <i class="devicon-nodejs-plain colored" title="NodeJS"></i>
+        </li> -->
+
+      <!-- 
+        <li class="icon icon__item icon__item--inline">
+          <i class="devicon-mongodb-plain-wordmark colored" title="MongoDB"></i>
+        </li> -->
+
+      <!-- <li class="icon icon__item icon__item--inline">
+          <i class="devicon-git-plain colored" title="Git"></i>
+        </li>
+
+        <li class="icon icon__item icon__item--inline">
+          <i class="devicon-github-plain colored" title="Github"></i>
+        </li> -->
+
+      <!-- <li class="icon icon__item icon__item--inline">
+          <i class="devicon-docker-plain colored" title="Docker"></i>
+        </li> -->
+
+      <!-- <li class="icon icon__item icon__item--inline">
+          <i class="devicon-html5-plain colored" title="Html 5"></i>
+        </li>
+
+        <li class="icon icon__item icon__item--inline">
+          <i class="devicon-css3-plain colored" title="CSS 3"></i>
+        </li>
+
+        <li class="icon icon__item icon__item--inline">
+          <i class="devicon-sass-original colored" title="Sass/scss"></i>
+        </li> -->
+      <!-- </ul> -->
+      <div>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          JavaScript
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          ReactJS
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          React Native
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          Socket Io
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          Redux
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          Bootstrap 4
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          Html5 - Css3
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          Scss
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          Git
+        </h3>
+        <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+          RestAPI
+        </h3>
+
+      </div>
+    </section>
+
+    <section class="resume-section slide-up js-slideUp" id="projects">
+      <h1 class="heading heading--no-sub">Projects</h1>
+
+      <ul class="list list__container">
+        <li class="list list__item">
+          <h3 class="subheading subheading--small fa-primary" style="margin-bottom: 1rem">
+            <strong>
+              ANT-TECH COMPANY
+            </strong>
+          </h3>
+          <p class="text text--small text--icon-inside">
+            <i class="fas fa-medal"></i>
+            <span class='fa-primary'>
+              ShoopCityPro
+            </span>
+            - E-commercial app
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Responsibilities:
+            </strong>
+            Maintain code, update UI base on
+            design, implement new feature, get requirements
+            from client, build apk, upload testflight
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Tech stack:
+            </strong>
+            React Native, Redux, SocketIo,
+            apiSauce
+          </p>
+
+          <p class="text text--small text--icon-inside">
+            <i class="fas fa-medal"></i>
+            <span class='fa-primary'>
+              ShoopCityPro web
+            </span>
+            - Registration web
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Responsibilities:
+            </strong>
+            Maintain code, update UI base on
+            design, implement registration flow, deploy new version
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Tech stack:
+            </strong>
+            ReactJS, Redux, Axios
+          </p>
+
+          <p class="text text--small text--icon-inside">
+            <i class="fas fa-medal"></i>
+            <span class='fa-primary'>
+              Klic
+            </span>
+            - E-commercial app
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Responsibilities:
+            </strong>
+            Maintain code, update UI base on
+            design, implement new feature, get requirements
+            from client, build apk, upload testflight
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Tech stack:
+            </strong>
+            React Native, Redux, SocketIo,
+            apiSauce
+          </p>
+
+        </li>
+
+        <li class="list list__item">
+          <h3 class="subheading subheading--small fa-primary" style=" margin-bottom: 1rem">
+            <strong>
+              PERSONAL PROJECT
+            </strong>
+          </h3>
+          <p class="text text--small text--icon-inside">
+            <i class="fas fa-medal"></i>
+            <span class='fa-primary' style="cursor:pointer" onClick="window.open('https://utcungnee.web.app/')">
+              Booking Cinema Ticket
+            </span>
+            - E-commercial web
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Responsibilities:
+            </strong>
+            Design UX/UI, analyse and develop feature
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Tech stack:
+            </strong>
+            ReactJs, Redux, Axios
+          </p>
+          <p class="text text--small text--icon-inside">
+            <i class="fas fa-medal"></i>
+            <span class='fa-primary' style=" cursor:pointer"
+              onClick="window.open('https://rock-paper-scissors-game-e87e1.web.app/')">
+              Game Rock paper scissors
+            </span>
+            - Game web
+          </p>
+          <p class="text text--small text--icon-inside">
+            <strong>
+              Tech stack:
+            </strong>
+            ReactJs, Redux
+          </p>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+
+  <div class="popup popup--card d-none" style="overflow: hidden" id="basicInfo">
+    <span class="popup__btn-close" title="close">
+      <i class="fas fa-times-circle"></i>
+    </span>
+
+    <div class="popup__header">
+      <h3 class="heading heading--no-sub" style="margin: 0">Contact Me</h3>
+    </div>
+
+    <div class="popup__content popup--flex-v">
+      <div class="popup--flex__item--inline">
+        <div class="popup__content__avatar" style="
+            background-image: url(images/profile_image.jpg);
+            margin-top: 3px;
+          "></div>
+      </div>
+
+      <div class="popup--flex__item">
+        <ul class="list list__container list__container--no-p" style="margin-top: 0">
+          <li class="list list__item">
+            <p class="text text--small" style="margin-top: 0">
+              <strong> Fullname: </strong>
+              Võ Đức Được
+            </p>
+          </li>
+
+          <li class="list list__item">
+            <p class="text text--small">
+              <strong> Age: </strong>
+              <span id="age"></span>
+            </p>
+          </li>
+
+          <li class="list list__item">
+            <p class="text text--small">
+              <strong> Address: </strong>
+              Ho Chi Minh City.
+            </p>
+          </li>
+
+          <li class="list list__item">
+            <p class="text text--small">
+              <strong> Email: </strong>
+              duocvo2501@gmail.com
+            </p>
+          </li>
+
+          <li class="list list__item">
+            <p class="text text--small">
+              <strong> Phone: </strong>
+              +84 899 969 755
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/dateOfBirth.js"></script>
+
+  <script src="scripts/basicInfo.js"></script>
+
+  <script src="scripts/libs/noframework.waypoints.min.js"></script>
+
+  <script src="scripts/theme.js"></script>
+  <script src="scripts/scroll.js"></script>
+  <script src="scripts/slideUp.js"></script>
+  <script src="scripts/dynamicTxt.js"></script>
+</body>
+
+</html>

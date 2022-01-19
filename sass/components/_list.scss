@@ -1,0 +1,12 @@
+.list {
+  font-family: "Open Sans", sans-serif;
+  color: var(--main-text-secondary);
+  &__item {
+    list-style: none;
+  }
+  &__container {
+    &--no-p {
+      padding: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.icon {
+  &__container {
+    display: block;
+
+    padding-left: 0;
+  }
+
+  &__container--h {
+    .icon__item {
+      display: inline-block;
+      margin-right: 0.3rem;
+    }
+  }
+
+  &__item {
+    font-size: 3rem;
+    list-style: none;
+    &--inline {
+      display: inline;
+    }
+    i {
+      &:hover {
+        color: var(--main-unhighlight-color) !important;
+      }
+    }
+  }
+
+  &--dynamic-color {
+    color: var(--main-text-primary);
+  }
+}
+
+/* Small screen */
+@media all and (max-width: 600px) {
+}
+
+/* Large screen */
+@media all and (min-width: 600px) {
+}

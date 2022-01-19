@@ -1,0 +1,162 @@
+.navbar {
+  z-index: 99;
+  position: fixed;
+
+  background-color: var(--nav-bg-primary);
+
+  &-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+}
+
+.nav {
+  &-item {
+    width: 100%;
+    &:last-child {
+      margin-top: auto;
+    }
+  }
+  &-item.active {
+    .nav-link {
+      filter: grayscale(0%);
+    }
+    border-left: thick solid var(--main-highlight-color);
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+
+    height: 5rem;
+
+    text-decoration: none;
+    color: var(--nav-text-primary);
+
+    transition: all 0s;
+    filter: grayscale(100%);
+    // transition: all var(--transition-speed), filter 0ms, color 0ms;
+
+    &:hover {
+      filter: grayscale(0%);
+      color: var(--nav-text-secondary);
+      background-color: var(--nav-bg-secondary);
+    }
+  }
+  &-link svg,
+  &-link i {
+    min-width: 2rem;
+    max-width: 2rem;
+    margin: 0 1.5rem;
+  }
+}
+
+.link {
+  &-text {
+    display: none;
+    margin-left: 1rem;
+  }
+}
+
+.fa {
+  &-primary {
+    color: var(--main-highlight-color);
+  }
+  &-secondary {
+    color: #305aff;
+  }
+
+  &-primary,
+  &-secondary {
+    transition: color var(--transition-speed);
+  }
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 1rem;
+
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.3ch;
+  text-transform: uppercase;
+
+  & .arrow {
+    transform: rotate(0deg);
+    transition: transform var(--transition-speed);
+  }
+}
+
+/* Small Screen */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+
+    width: 100vw;
+    height: 5rem;
+
+    &-nav {
+      flex-direction: row;
+    }
+  }
+
+  .nav-item.active {
+    border-left: 0;
+    border-bottom: thick solid var(--main-highlight-color);
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+  }
+}
+
+/* Large Screen */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+
+    width: 5rem;
+    height: 100vh;
+
+    /* Transtions & Effects */
+    transition: width 200ms ease;
+
+    &:hover {
+      border-right: thin solid var(--line-secondary);
+      width: 16rem;
+    }
+    &:hover .link-text {
+      display: inline;
+    }
+    &:hover .logo svg {
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+.theme-icon {
+  display: none;
+}
+
+.dark #darkIcon {
+  display: block;
+}
+
+.light #lightIcon {
+  display: block;
+}
