@@ -133,6 +133,8 @@ main {
 .list {
   font-family: "Open Sans", sans-serif;
   color: var(--main-text-secondary);
+  padding: 0;
+  margin-bottom: 2rem;
 }
 /* line 4, ../sass/components/_list.scss */
 .list__item {
